@@ -62,7 +62,9 @@ namespace Dic.en_c
             Console.WriteLine("2. Mostrar estudiantes");
             Console.WriteLine("3. Buscar estudiante");
             Console.WriteLine("4. Eliminar estudiante");
-            Console.WriteLine("5. Salir");
+            Console.WriteLine("5. Actualizar estudiante ");
+            Console.WriteLine("6. Contar estudiantes");
+            Console.WriteLine("7. Salir");
             Console.Write("Seleccione una opción: ");
             int opcion = Convert.ToInt32(Console.ReadLine());
             return (MenuOptions)opcion;
